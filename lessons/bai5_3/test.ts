@@ -1,23 +1,18 @@
-import { ethers } from "hardhat";
+import { ethers } from "ethers";
+
 async function main() {
-  // 1️⃣ Thông tin contract
-  const contractAddress = "0xDFe70ae94585dCE94685de4a021207215d2307cE";
+  const provider = new ethers.JsonRpcProvider("https://eth-sepolia.public.blastapi.io");
+
   const abi = [
     "function getCount() public view returns (uint)",
     "function increment() public"
   ];
-  const [provider] = await ethers.getSigners();
+  const contractAddress = "0x41d0Ad4E6227062B59CA673B418Fc00E3A2d10Cf"; // Replace with your contract address
 
   const contract = new ethers.Contract(contractAddress, abi, provider);
 
-  // 4️⃣ Gọi hàm getCount()
   const count = await contract.getCount();
-
-  // 5️⃣ In kết quả ra console
   console.log("Current count is:", count.toString());
 }
-// 6️⃣ Chạy hàm chính
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
-});
+
+main().catch(console.error);
