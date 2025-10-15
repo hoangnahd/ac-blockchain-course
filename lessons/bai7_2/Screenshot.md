@@ -1,2 +1,10 @@
-<img width="1135" height="214" alt="image" src="https://github.com/user-attachments/assets/81b8beb3-ed46-49b5-bd56-efba74dc9630" />
-<img width="1147" height="359" alt="image" src="https://github.com/user-attachments/assets/e4748a6c-a4a6-4a1b-8903-7fc343b33958" />
+# Nộp Bài
+
+## Địa chỉ Contract
+0xbf7608770D328A13D5db6530516dBAaa399632aB
+
+🔗 Link Verify Trên Etherscan
+ https://sepolia.etherscan.io/address/0xbf7608770D328A13D5db6530516dBAaa399632aB
+
+🖼️ Screenshot Verify Thành Công
+<img width="1481" height="978" alt="image" src="https://github.com/user-attachments/assets/bdedfe06-eb41-42a7-947e-6a18d0a57fcf" />
